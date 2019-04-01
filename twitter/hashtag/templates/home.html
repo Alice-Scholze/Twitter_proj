@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<br><br><br>
+<div class="container">
+    <div class="col-sm-5 col-md-5">
+        <div class="row">
+            <div class="col-sm-3 col-md-3"><label>Order by : </label></div>
+            <div class="col-sm-9 col-md-9">
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>All</option>
+                        {% for hashtag in hashtags %}
+                        <option>{{ hashtag.hashtag }}  </option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+            <th>Autor</th>
+            <th>Data de publicação</th>
+            <th>Mensagem</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tw in resultados %}
+            <tr>
+                <td> {{ tw.user.screen_name }} </td>
+                <td> {{ tw.created_at }} </td>
+                <td> {{ tw.text }} </td>
+            </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+</div>
+
+
+{% endblock %}
