@@ -7,3 +7,7 @@ class Hashtag(models.Model):
 
     def __str__(self):
         return self.hashtag
+
+    #@models.permalink
+    #def get_absolute_url(self):
+    #    return ('home', (), {'hashtag': self.hashtag})

@@ -1,24 +1,54 @@
 {% extends "base.html" %}
 {% block content %}
-<br><br><br>
+<br>
 <div class="container">
-    <div class="col-sm-5 col-md-5">
-        <div class="row">
-            <div class="col-sm-3 col-md-3"><label>Order by : </label></div>
-            <div class="col-sm-9 col-md-9">
-                <div class="form-group">
-                    <select class="form-control" id="exampleFormControlSelect1">
-                        <option>All</option>
-                        {% for hashtag in hashtags %}
-                        <option>{{ hashtag.hashtag }}  </option>
-                        {% endfor %}
-                    </select>
+    <div class="col-sm-8 col-md-8">
+        <form id="myForm" method="GET" class="form">
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-sm-2 col-md-2"><label>Order by : </label></div>
+                    <div class="col-sm-8 col-md-8">
+                        <div class="form-group">
+                            <select class="form-control" name="order" id="exampleFormControlSelect1">
+                                <option value="">All</option>
+                                {% for hashtag in hashtags %}
+                                <option value="{{ hashtag.id }}">{{ hashtag.hashtag }}  </option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-md-2">
+                        <input type="submit">
+                    </div>
                 </div>
             </div>
+        </form>
+    </div>
+    <br>
+    {% for tw in resultados %}
+    <div class="row post">
+        <div class="col-sm-3 col-md-3">
+            Autor: {{ tw.user.screen_name }}
+        </div>
+        <div class="col-sm-9 col-md-9">
+            Publicado em: {{ tw.created_at }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            {{ tw.text|linebreaks }}
         </div>
     </div>
     <br>
-    <table class="table table-striped">
+    {% empty %}
+    <div class="row post">
+        <div class="col-sm-12 col-md-12">
+            <p>Não foi possível localizar nenhum tweet</p>
+        </div>
+    </div>
+    {% endfor %}
+    <br>
+    <!--<table class="table table-striped">
       <thead>
         <tr>
             <th>Autor</th>
@@ -35,7 +65,7 @@
             </tr>
         {% endfor %}
       </tbody>
-    </table>
+    </table>-->
 </div>
 
 
