@@ -2,9 +2,6 @@ from django.shortcuts import render
 from .models import Hashtag
 import tweepy
 
-def teste(request, id):
-    return home(request)
-
 def home(request):
     filter = request.GET.get('order')
     if not filter:
@@ -12,7 +9,6 @@ def home(request):
     else:
         hashtags = Hashtag.objects.filter(pk=int(filter))
     resultados = None
-
     for hashtag in hashtags:
         if resultados is None:
             resultados = search_tweets(hashtag.hashtag)
