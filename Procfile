@@ -1,1 +1,1 @@
-web: gunicorn Twitter_proj.wsgi
+web: gunicorn hashtag.wsgi
