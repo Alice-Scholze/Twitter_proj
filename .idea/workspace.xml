@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0fcb8b18-46e2-4db4-9816-f7aedc894e66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter/hashtag/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/hashtag/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitter/hashtag/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/hashtag/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter/hashtag/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/hashtag/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter/twitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/twitter/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter/twitter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter/twitter/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitter/twitter/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="260">
+              <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -46,39 +47,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter/hashtag/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twitter/hashtag/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter/hashtag/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter/hashtag/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter/hashtag/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/twitter/twitter/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+              <folding>
+                <element signature="e#631#663#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -121,19 +116,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/twitter/twitter/urls.py" />
         <option value="$PROJECT_DIR$/twitter/hashtag/admin.py" />
         <option value="$PROJECT_DIR$/twitter/twitter/wsgi.py" />
         <option value="$PROJECT_DIR$/twitter/hashtag/static/css/styles.css" />
         <option value="$PROJECT_DIR$/twitter/hashtag/filters.py" />
-        <option value="$PROJECT_DIR$/twitter/twitter/settings.py" />
-        <option value="$PROJECT_DIR$/twitter/hashtag/templates/base.html" />
         <option value="$PROJECT_DIR$/twitter/hashtag/forms.py" />
         <option value="$PROJECT_DIR$/twitter/hashtag/templates/home.html" />
         <option value="$PROJECT_DIR$/twitter/hashtag/urls.py" />
         <option value="$PROJECT_DIR$/twitter/hashtag/views.py" />
         <option value="$PROJECT_DIR$/twitter/hashtag/tests.py" />
         <option value="$PROJECT_DIR$/twitter/hashtag/models.py" />
+        <option value="$PROJECT_DIR$/twitter/twitter/urls.py" />
+        <option value="$PROJECT_DIR$/twitter/hashtag/templates/base.html" />
+        <option value="$PROJECT_DIR$/twitter/hashtag/templates/base_site.html" />
+        <option value="$PROJECT_DIR$/twitter/twitter/settings.py" />
       </list>
     </option>
   </component>
@@ -159,18 +155,6 @@
               <item name="Twitter_proj" type="462c0819:PsiDirectoryNode" />
               <item name="twitter" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Twitter_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Twitter_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="hashtag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Twitter_proj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Twitter_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-              <item name="twitter" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -182,6 +166,11 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Alice\Repo\Python_2\Twitter_proj\twitter\templates\admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,7 +238,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -260,7 +249,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -269,32 +258,8 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twitter/twitter/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding>
-            <element signature="e#631#663#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitter/hashtag/filters.py" />
-    <entry file="file://$PROJECT_DIR$/twitter/hashtag/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitter/hashtag/forms.py" />
-    <entry file="file://$PROJECT_DIR$/twitter/twitter/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitter/hashtag/static/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -306,13 +271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/hashtag/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" selection-start-column="32" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -336,13 +294,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/hashtag/urls.py">
+    <entry file="file://$PROJECT_DIR$/twitter/hashtag/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -356,10 +311,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter/hashtag/models.py">
+    <entry file="file://$PROJECT_DIR$/twitter/hashtag/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/twitter/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/hashtag/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/hashtag/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter/twitter/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="68" column="6" lean-forward="true" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
         </state>
       </provider>
     </entry>
