@@ -1,11 +1,11 @@
 from django.test import TestCase
 from django.test.client import Client
 from .views import instantiate_twitter, search_tweets, home
-
+from twitter.twitter.settings import consummer_key, consummer_secret, acess_key, acess_secret
 
 class HomeViewTest(TestCase):
     def test_instantiate_twitter(self):
-        twitter = instantiate_twitter('ph1qcmgTRpAQbR9QYIQ3njL6u', 'vOR2XPM8HKZ1wNxC7QbVFZ3lMvfXsrd1hPwg9Z4d6fsPqsgAkq', '1108492892526600192-PEK9wbvbjBV4eu4AfLj5USPd6R9RFK', 'TwAMBTeErr2ZTvoKlkWwzV9CXGvtNAHaEzKeFOHWBBbnj')
+        twitter = instantiate_twitter(consummer_key, consummer_secret, acess_key, acess_secret)
         self.assertTrue(twitter)
 
     def test_search_tweets(self):

@@ -5,10 +5,10 @@
 {% block branding %}
 <div class="col-sm-12 col-md-12 col-lg-12" style="font-size:16px;">
     {% if request.path != '/admin/login/' %}
-    <dvi class="col-sm-2 col-md-2 col-lg-2" style="margin:32px;">
+    <dvi  style="margin:32px;">
       <a href="{% url 'home' %}">Home</a>
     </dvi>
-    <dvi class="col-sm-2 col-md-2 col-lg-2">
+    <dvi >
       <a href="{% url 'admin:index' %}">Admin</a>
     </dvi>
     {% endif %}
