@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from .models import Hashtag
 import tweepy
-from twitter.twitter.settings import consummer_key, consummer_secret, acess_key, acess_secret
+from twitter.settings import consummer_key, consummer_secret, acess_key, acess_secret
 
 def home(request):
     filter = request.GET.get('order')

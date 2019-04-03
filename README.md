@@ -19,9 +19,9 @@ Utilização:
 	  python manage.py migrate
 6 - Crie seu super usuário para possuir acesso a guia de administração do projeto:
 	  python manage.py createsuperuser
-7 - O layout da guia de administração foi sobrescrevido, por isso é necessário apagar os arquivos de layout padrão.
+7 - O layout da guia de administração foi sobrescrevido, por isso é necessário apagar os arquivos de layout padrão base.html, base-site.html e login.html.
   	Para isto acesse a partir do diretório raiz do projeto, a pasta \venv\Lib\site-packages\django\contrib\admin\templates\admin
-	  e apague todo seu conteúdo
+	 e apague de seu conteúdo os arquivos base.html, base-site.html e login.html
 8 - Acesse o arquivo settings.py complete os seguintes campos as credenciais da sua aplicação no twitter:
     consummer_key
     consummer_secret
