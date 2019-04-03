@@ -115,10 +115,10 @@ USE_L10N = True
 
 USE_TZ = True
 
-consummer_key = 'ph1qcmgTRpAQbR9QYIQ3njL6u'
-consummer_secret = 'vOR2XPM8HKZ1wNxC7QbVFZ3lMvfXsrd1hPwg9Z4d6fsPqsgAkq'
-acess_key = '1108492892526600192-PEK9wbvbjBV4eu4AfLj5USPd6R9RFK'
-acess_secret = 'TwAMBTeErr2ZTvoKlkWwzV9CXGvtNAHaEzKeFOHWBBbnj'
+consummer_key = ''
+consummer_secret = ''
+acess_key = ''
+acess_secret = ''
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/

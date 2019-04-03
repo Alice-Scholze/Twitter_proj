@@ -2,12 +2,12 @@
 
 O Twitter_proj é um projeto criado para efetuar buscas de mensagens no twitter a partir de uma hashtag previamente cadastrada.
 
-###Pré-requisitos:
+#### Pré-requisitos:
 1 - Python 3.7.2;   <br />
 2 - Você deve possuir uma conta no twitter e habilitar a função desenvolvedor;  <br />
 3 - Além disso, é necessário criar um novo aplicativo no twitter para receber as credenciais.   <br />
 
-###Utilização:
+#### Utilização:
 1 - Clone o repositório;    <br />
 2 - Vá até a pasta raíz do projeto e crie um ambiente virtual executando o seguinte comando no terminal:    <br />
 	  python -m venv C:\Users\admin\Documents\Prog\Python\Django\Twitter_proj\venv    <br />
