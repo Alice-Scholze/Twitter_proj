@@ -30,3 +30,16 @@ O Twitter_proj é um projeto criado para efetuar buscas de mensagens no twitter 
 9 - Volte a pasta Twitter_proj/twitter e rode sua aplicação:    <br />
 	  python manage.py runserver    <br />
 10 - A tela inicial da aplicação exibe as mensagens buscadas no twitter a partir das hashtags cadastradas. Para cadastrar hashtags, acesse a guia Admin, faça acesso com o usuário criado no item 6, e em Hashtags faça o cadastro das hashtags que deseja acompanhar.    <br />
+11 - Crie um arquivo .env para armazenar os dados de conexão local: <br />
+	echo 'DATABASE_URL=sqlite:///db.sqlite3' > .env <br />
+12 - Crie sua aplicação no heroku: <br />
+	heroku create <br />
+13 - Commite suas alterações: <br />
+	git commit -m "Iniciado projeto" <br />
+14 - Envie as alterações para o heroku: <br />
+	git push heroku master <br />
+15 - Atualize o banco de dados no heroku: <br />
+	heroku run python manage.py migrate <br />
+16 - Crie um superusuário: <br />
+	heroku run python manage.py createsuperuser <br />
+
